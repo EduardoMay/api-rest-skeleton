@@ -6,7 +6,7 @@ const morgan = require("morgan");
 
 const app = express();
 
-app.set("port", process.env.API_PORT || 3005);
+app.set("port", process.env.PORT || 3005);
 
 app.use(cors());
 app.use(morgan("dev"));
