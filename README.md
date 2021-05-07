@@ -1,12 +1,16 @@
 # API Rest Skeleton
 
+## Use
+- Typescript
+- Babel
+
 ## Install instructions
 
 - Clone repository
-- cd `mobile-messenger-v3`
+- cd `api-rest-skeleton`
 - Run `npm install`
 - Execute in the terminal `npm run dev`
 
-## Build api
+## Build api and run serve
 
 - Execute in the terminal `npm run start`
