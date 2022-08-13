@@ -1,5 +1,5 @@
-import Express from "express";
 import cors from "cors";
+import Express from "express";
 import morgan from "morgan";
 
 // Routes
@@ -14,6 +14,6 @@ app.use(morgan("dev"));
 app.use(Express.json());
 app.use(Express.urlencoded({ extended: false }));
 
-app.get("/", ExampleRoutes);
+app.use("/api/v1/example", ExampleRoutes);
 
 export default app;
